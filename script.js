@@ -1,5 +1,7 @@
 function getFormvalue() {
     //Write your code here
-	alert(form.value);
+	document.getElementById("forml").addEventListener("click", function() {
+  alert("forml.value");
+});
 
 }
