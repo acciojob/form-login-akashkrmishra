@@ -1,7 +1,6 @@
 function getFormvalue() {
     //Write your code here
-	document.getElementById("forml").addEventListener("click", function() {
-  alert("form.value");
-});
-
+	const firstname = document.getElementByName('fname')[0].value;
+	const lastname  = document.getElementByName('lname')[0].value;
+	
 }
